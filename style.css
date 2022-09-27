@@ -1,0 +1,56 @@
+button{
+    padding: 15px 25px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+  margin: 5px 5px 5px 5px;
+  flex-grow: 1;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#unitButtonsImperial {
+    display: flex;
+}
+
+    #LengthUnitsImperial{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #MassUnitsImperial{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #CapacityUnitsImperial{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    #TemperatureUnitsImperial{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+#unitButtonsMetric {
+    display: flex;
+}
+
+    #LengthUnitsMetric{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
