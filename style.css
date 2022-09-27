@@ -1,56 +1,151 @@
 button{
     padding: 15px 25px;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #04AA6D;
+  background-color: #51b18e;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 9px #999;
-  margin: 5px 5px 5px 5px;
+  box-shadow: 0 9px rgb(216, 216, 216);
+  margin: 10px 5px 10px 5px;
   flex-grow: 1;
+  font-family: monospace;
 }
 
-button:hover {background-color: #3e8e41}
+button:hover {background-color: #64967e}
 
 button:active {
-  background-color: #3e8e41;
+  background-color: #1f6950;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
+body {
+    background-color: #e4fafa;
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+}
+
+#Titles{
+    display: flex;
+    text-align: center;
+    font-family:monospace;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#distanceTitle{
+    width: 25%;
+}
+
+#weightTitle{
+    width: 25%;
+}
+
+#capacityTitle{
+    width: 25%;
+}
+
+#temperatureTitle{
+    width: 25%;
+}
+
+
+#conversionChoice {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+input{
+    width: 50%;
+    font-size: 24px;
+    font-family: monospace;
+
+}
+
+#conversionResult {
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 150%;
+}
+
+label{
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+#conversionChoice p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
 #unitButtonsImperial {
     display: flex;
+    width: 100%;
 }
 
     #LengthUnitsImperial{
         display: flex;
         flex-flow: row wrap;
+        width: 25%;
     }
 
     #MassUnitsImperial{
         display: flex;
         flex-flow: row wrap;
+        width: 25%;
     }
 
     #CapacityUnitsImperial{
         display: flex;
         flex-flow: row wrap;
+        width: 25%;
     }
 
     #TemperatureUnitsImperial{
         display: flex;
         flex-flow: row wrap;
+        width: 25%;
     }
 
 #unitButtonsMetric {
     display: flex;
+    width: 100%;
+    margin-top: 20px;
 }
 
     #LengthUnitsMetric{
         display: flex;
         flex-flow: row wrap;
+        width: 25%;
+        
     }
 
+    #MassUnitsMetric{
+        display: flex;
+        flex-flow: row wrap;
+        width: 25%;
+    }
+
+    #CapacityUnitsMetric{
+        display: flex;
+        flex-flow: row wrap;
+        width: 25%;
+    }
+
+    #TemperatureUnitsMetric{
+        display: flex;
+        flex-flow: row wrap;
+        width: 25%;
+    }
