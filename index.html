@@ -6,25 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit Converter</title>
     <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>Select a unit you want to convert:</p><br>
-
-    <button id="FeetButton">Feet</button>
-    <button id="MetersButton">Meters</button> <br><br>
-    
-    <div id="conversionChoice"></div>
-    <div id="conversionResult"></div>
+<p>Select a unit you want to convert:</p><br>
+    <div id="unitButtonsImperial">
+        <p>Imperial: <br></p>
+            <div id="LengthUnitsImperial">
+                <button id="FeetButton">Feet</button>
+                <button id="InchesButton">Inches</button>
+                <button id="MilesButton">Miles</button>
+                <button id="YardsButton">Yards</button><br><br>
+            </div>
+            <div id="MassUnitsImperial">
+                <button id="OunceButton">Ounces</button>
+                <button id="PoundButton">Pounds</button>
+                <button id="StoneButton">Stone</button>
+            </div>
+            <div id="CapacityUnitsImperial">
+                <button id="PintButton">Pint</button>
+                <button id="GallonButton">Gallons</button>
+                <button id="QuartsButton">Quarts</button>
+            </div>
+            <div id="TemperatureUnitsImperial">
+                <button id="FahrenheitButton">°F</button>
+            </div>
+    </div>
+    <div id="unitButtonsMetric">        
+        <p>Metric: </p>
+            <div id="LengthUnitsMetric">
+                <button id="KilometersButton">Kilometers</button>
+                <button id="MetersButton">Meters</button>
+                <button id="CentimetersButton">Centimeters</button>
+                <button id="MilimetersButton">Milimeters</button> 
+            </div>
+            <div id="MassUnitsMetric">
+                <button id="KilogramButton">Kilograms</button>
+                <button id="GramsButton">Grams</button>
+                <button id="MiligramsButton">Miligrams</button>
+            </div>
+            <div id="CapacityUnitsMetric">
+                <button id="LitreButton">Litres</button>
+                <button id="DecilitreButton">Decilitres</button>
+                <button id="MililitresButton">Mililitres</button>
+            </div>
+            <div id="TemperatureUnitsMetric">
+                <button id="CelsiusButton">°C</button>
+            </div>            
+    </div>
+<div id="conversionChoice"></div>
+<div id="conversionResult"></div>
 </body>
 </html>
 
 
 
-
-
-<!-- <p>
-    <label>Feet</label>
-    <input id="inputFeet" type="number" placeholder="Feet"
-    oninput="lengthConverter(this.value)" onchange="lengthConverter(this.value)">
-  </p>
-  <p>cm: <span id="outputMeters"></span></p> -->
